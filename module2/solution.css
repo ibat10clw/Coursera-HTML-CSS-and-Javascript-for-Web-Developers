@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 300%;
+    font-family: "Comic Sans MS";
+    margin-bottom: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.box{
+    display: flex;
+}
+.dishes{
+    background-color: gray;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.dishes_name{
+    float: right;
+    width: 45%;
+    text-align: center;
+    border: 1px solid black;
+    font-family: "Comic Sans MS";
+    font-size: 125%;
+    margin: -1px;
+}
+.dishes_description{
+    clear: both;
+    width: auto;
+    padding:10px;
+    font-family: "Comic Sans MS";
+}
+
+@media (min-width:992px) {
+    .box{
+        width:33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu{
+        flex-wrap: wrap;
+    }
+    .box{
+        width:40%;
+        flex:auto;
+        margin: 10px;
+    }
+    .dishes{
+        flex:auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .menu{
+        flex-wrap: wrap;
+    }    
+    .box{
+        width: 100%;
+        flex:auto;
+        margin: 30px;
+    }
+    .dishes{
+        flex:auto;
+    }    
+
+}
