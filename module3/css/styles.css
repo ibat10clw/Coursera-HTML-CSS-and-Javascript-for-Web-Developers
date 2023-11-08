@@ -1,0 +1,43 @@
+* {
+    font-family: "Comic Sans MS";
+}
+.navbar {
+    background-color: gray;
+    border: 0;
+    border-radius: 0;
+}
+
+.icon-bar {
+    border: 1px solid black;
+}
+.navbar-item{
+    background-color: gray;
+    text-align: center;
+    color: white !important;
+}
+#company-name{
+    color: black;
+    font-weight: bold;
+}
+.dishes {
+    background-color: gray;
+    padding: 2% 5% 5% 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.name {    
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#nav-list {
+    background-color: gainsboro;
+}
+
+#back {
+    text-decoration: underline;
+}
